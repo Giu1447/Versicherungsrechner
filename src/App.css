@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes wave {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+.hover\:animate-wave {
+  background-size: 400% 100%;
+  transition: background-position 0.3s;
+}
+
+.hover\:animate-wave:hover {
+  animation: wave 1s linear infinite;
+}
