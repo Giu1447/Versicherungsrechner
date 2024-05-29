@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       height: {
         '50vh': '50vh',
-        '30vh': '30vh',
+        '35vh': '35vh',
         '75vh': '75vh',
       },
       blur: {
