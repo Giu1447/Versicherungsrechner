@@ -31,6 +31,7 @@ function Versichern() {
     .then(response => response.json())
     .then(data => {
       console.log('Erfolgreich gesendet:', data);
+      window.location.href = 'https://webhook.site/ebfc1817-3348-4766-b792-9d982baa7749';
     })
     .catch((error) => {
       console.error('Fehler:', error);

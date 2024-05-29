@@ -35,7 +35,7 @@ function Home() {
                 </div>
             </header>
 
-            <div id="content" className="container mx-auto p-4 justifiy-items-center">
+            <div id="content" className="container mx-auto p-4 justify-items-center">
                 <div id='picture' className='relative h-50vh'>
                     <img
                         src='https://cdn.pixabay.com/photo/2016/12/12/15/30/dodge-charger-1901806_1280.jpg'
@@ -54,10 +54,12 @@ function Home() {
                     </Link>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-7 gap-4 mt-8 flex-auto h-35vh">
-                    <div></div>
 
-                    <div className="p-4 border rounded-lg shadow-md flex flex-col justify-between items-center">
+
+
+                <div className="grid grid-cols-1 gap-4 mt-8 h-35vh place-content-around">
+
+                    <div className="p-4 border rounded-lg shadow-md flex flex-col justify-between items-center w-3/4">
                         <div>
                             <h2 className="text-xl font-bold mb-2">Versichern</h2>
                             <p>Jeztz die günstigste Versicherung abschliessen.</p>
@@ -76,9 +78,8 @@ function Home() {
                         </Link>
                     </div>
 
-                    <div></div>
 
-                    <div className="p-4 border rounded-lg shadow-md flex flex-col justify-between items-center">
+                    <div className="p-4 border rounded-lg shadow-md flex flex-col justify-between items-center w-3/4">
                         <div>
                             <h2 className="text-xl font-bold mb-2">Berechnen</h2>
                             <p>Berechnen Sie Ihre Versicherungsprämien.</p>
@@ -97,9 +98,8 @@ function Home() {
                         </Link>
                     </div>
 
-                    <div></div>
 
-                    <div className="p-4 border rounded-lg shadow-md flex flex-col justify-between items-center">
+                    <div className="p-4 border rounded-lg shadow-md flex flex-col justify-between items-center w-3/4">
                         <div>
                             <h2 className="text-xl font-bold mb-2">Vergleichen</h2>
                             <p>Vergleichen Sie verschiedene Versicherungsangebote.</p>
