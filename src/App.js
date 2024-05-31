@@ -4,20 +4,23 @@ import Versichern from './pages/Versichern';
 import Berechnen from './pages/Berechnen';
 import Vergleich from './pages/Vergleich';
 import Home from './pages/Home';
+import { MyProvider } from './pages/Context';
 
 export default function App() {
   return (
     <Router>
-      <div className='App'>
-        <div className='content'>
-          <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route path="/versichern" element={<Versichern />} />
-            <Route path="/berechnen" element={<Berechnen />} />
-            <Route path="/vergleichen" element={<Vergleich />} />
-          </Routes>
+      <MyProvider>
+        <div className='App'>
+          <div className='content'>
+            <Routes>
+              <Route exact path="/" element={<Home />} />
+              <Route path="/versichern" element={<Versichern />} />
+              <Route path="/berechnen" element={<Berechnen />} />
+              <Route path="/vergleichen" element={<Vergleich />} />
+            </Routes>
+          </div>
         </div>
-      </div>
+      </MyProvider>
     </Router>
   );
 }

@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { MyContext } from './Context';
 
 function Berechnung() {
   const [schritt, setSchritt] = useState(1);
@@ -11,6 +12,8 @@ function Berechnung() {
   const [fuehrerscheinJahre, setFuehrerscheinJahre] = useState('');
   const [versicherungsPraemie, setVersicherungsPraemie] = useState(400);
   const [berechnet, setBerechnet] = useState(false);
+
+  const { setPreis } = useContext(MyContext);
 
   const handleNext = () => {
     setSchritt(schritt + 1);
@@ -54,7 +57,7 @@ function Berechnung() {
       case 'strasse':
         neuePraemie *= 1.2;
         break;
-      case 'Garage und Strasse':
+      case 'garstreet':
         neuePraemie *= 1.1;
         break;
       default:
@@ -79,6 +82,7 @@ function Berechnung() {
 
     setVersicherungsPraemie(neuePraemie);
     setBerechnet(true);
+    setPreis(neuePraemie);
   };
 
   const renderStep = (schritt) => {
@@ -220,19 +224,33 @@ function Berechnung() {
           >
             Zurück
           </button>
-          <button
-            onClick={handleNext}
-            disabled={schritt === 4}
-            className="mt-4 bg-black-500 text-black rounded-lg hover:bg-black-700 
+          {schritt === 4 ? (
+            <Link
+              to="/vergleichen"
+              className="mt-4 bg-black-500 text-black rounded-lg hover:bg-black-700 
             transition duration-300 self-center relative border-2 border-gray-800 bg-transparent 
             px-4 py-1.5 text-gray-800 transition-colors before:absolute 
             before:left-0 before:top-0 before:-z-10 before:h-full before:w-full 
             before:origin-top-left before:scale-x-0 before:bg-gray-800 before:transition-transform 
             before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 
             before:rounded-md"
-          >
-            Weiter
-          </button>
+            >
+              Vergleichen
+            </Link>
+          ) : (
+            <button
+              onClick={handleNext}
+              className="mt-4 bg-black-500 text-black rounded-lg hover:bg-black-700 
+            transition duration-300 self-center relative border-2 border-gray-800 bg-transparent 
+            px-4 py-1.5 text-gray-800 transition-colors before:absolute 
+            before:left-0 before:top-0 before:-z-10 before:h-full before:w-full 
+            before:origin-top-left before:scale-x-0 before:bg-gray-800 before:transition-transform 
+            before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 
+            before:rounded-md"
+            >
+              Weiter
+            </button>
+          )}
         </div>
 
         {berechnet && (
