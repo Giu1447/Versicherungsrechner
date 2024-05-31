@@ -1,13 +1,20 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { MyContext } from "./Context";
 
-
 function Vergleich() {
+  const [randomFactors] = useState({
+    AXA: Math.random() * 2 + 1,
+    Mobiliar: Math.random() * 2 + 1,
+    TCS: Math.random() * 2 + 1,
+  });
 
+  const { preis } = useContext(MyContext);
 
-  const { preis, setPreis } = useContext(MyContext);
-
+  const calculatePrice = (company) => {
+    const basePrice = preis !== 0 ? preis : 400;
+    return (basePrice * randomFactors[company]).toFixed(2);
+  };
 
   return (
     <div>
@@ -40,10 +47,90 @@ function Vergleich() {
       </header>
 
 
+      {preis !== 400 && preis !== 0 ? (
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8 w-full justify-items-center">
+          <h1 className="font-bold mb-2 mt-2 text-center text-xl col-span-3">
+            Folgende Versicherungen kommen für Sie in Frage:
+          </h1>
+          <div className="p-4 border rounded-lg shadow-md flex flex-col justify-between items-center w-full sm:w-3/4">
+            <div>
+              <h2 className="text-xl font-bold mb-2">AXA</h2>
+              <p>Schützen Sie Ihr Fahrzeug mit AXA.</p>
+              <p>Preis: {calculatePrice('AXA')} CHF</p>
+            </div>
+            <Link
+              to="https://www.axa.ch/de/privatkunden/angebote/fahrzeug-reisen/autoversicherung.html"
+              className="mt-4 bg-black-500 text-black rounded-lg hover:bg-black-700
+              transition duration-300 self-end relative border-2 border-gray-800 bg-transparent 
+              px-4 py-1.5 text-gray-800 transition-colors before:absolute 
+              before:left-0 before:top-0 before:-z-10 before:h-full before:w-full 
+              before:origin-top-left before:scale-x-0 before:bg-gray-800 before:transition-transform 
+              before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 
+              before:rounded-md"
+            >
+              Mehr erfahren
+            </Link>
+          </div>
 
+          <div className="p-4 border rounded-lg shadow-md flex flex-col justify-between items-center w-full sm:w-3/4">
+            <div>
+              <h2 className="text-xl font-bold mb-2">Mobiliar</h2>
+              <p>Entdecken Sie die Mobiliar Autoversicherung.</p>
+              <p>Preis: {calculatePrice('Mobiliar')} CHF</p>
+            </div>
+            <Link
+              to="https://www.mobiliar.ch/versicherungen-und-vorsorge/fahrzeuge-und-reisen/autoversicherung"
+              className="mt-4 bg-black-500 text-black rounded-lg hover:bg-black-700 
+              transition duration-300 self-end relative border-2 border-gray-800 bg-transparent 
+              px-4 py-1.5 text-gray-800 transition-colors before:absolute 
+              before:left-0 before:top-0 before:-z-10 before:h-full before:w-full 
+              before:origin-top-left before:scale-x-0 before:bg-gray-800 before:transition-transform 
+              before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 
+              before:rounded-md"
+            >
+              Mehr erfahren
+            </Link>
+          </div>
 
-      {preis != 400 && preis != 0 && (
-        <p>Deine Prämie beträgt {preis.toFixed(2)}</p>
+          <div className="p-4 border rounded-lg shadow-md flex flex-col justify-between items-center w-full sm:w-3/4">
+            <div>
+              <h2 className="text-xl font-bold mb-2">TCS</h2>
+              <p>Erhalten Sie umfassenden Schutz mit TCS.</p>
+              <p>Preis: {calculatePrice('TCS')} CHF</p>
+            </div>
+            <Link
+              to="https://www.tcs.ch/de/produkte/versicherungen-kreditkarten/fahrzeug-versicherungen/auto-versicherung-lieferwagen.php"
+              className="mt-4 bg-black-500 text-black rounded-lg hover:bg-black-700 
+              transition duration-300 self-end relative border-2 border-gray-800 bg-transparent 
+              px-4 py-1.5 text-gray-800 transition-colors before:absolute 
+              before:left-0 before:top-0 before:-z-10 before:h-full before:w-full 
+              before:origin-top-left before:scale-x-0 before:bg-gray-800 before:transition-transform 
+              before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 
+              before:rounded-md"
+            >
+              Mehr erfahren
+            </Link>
+          </div>
+        </div>
+      ) : (
+        <div className="container mx-auto flex flex-col items-center mt-10">
+          <div className="text-black text-xl font-bold">
+            <h1>Bitte berechnen Sie zuerst Ihre Prämie</h1>
+          </div>
+
+          <Link
+            to="/berechnen"
+            className="mt-4 bg-black-500 text-black rounded-lg hover:bg-black-700 
+            transition duration-300 self-center relative border-2 border-gray-800 bg-transparent 
+            px-4 py-1.5 text-gray-800 transition-colors before:absolute 
+            before:left-0 before:top-0 before:-z-10 before:h-full before:w-full 
+            before:origin-top-left before:scale-x-0 before:bg-gray-800 before:transition-transform 
+            before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 
+            before:rounded-md"
+          >
+            Berechnen
+          </Link>
+        </div>
       )}
     </div>
   );
