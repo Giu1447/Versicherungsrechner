@@ -1,0 +1,477 @@
+[
+    { "value": "-", "factor": 1 },
+    { 
+      "value": "Alfa Romeo", 
+      "modelle": [
+        { "modell": "Giulia", "preis": "ab 45,000 CHF" },
+        { "modell": "Stelvio", "preis": "ab 50,000 CHF" },
+        { "modell": "Giulietta", "preis": "ab 30,000 CHF" },
+        { "modell": "4C", "preis": "ab 75,000 CHF" },
+        { "modell": "Tonale", "preis": "ab 40,000 CHF" }
+      ]
+    },
+    {
+        "value": "Aston Martin", 
+        "modelle": [
+          { "modell": "DB11", "preis": "ab 205,000 CHF" },
+          { "modell": "Vantage", "preis": "ab 150,000 CHF" },
+          { "modell": "DBS Superleggera", "preis": "ab 320,000 CHF" },
+          { "modell": "Rapide AMR", "preis": "ab 250,000 CHF" },
+          { "modell": "DBX", "preis": "ab 190,000 CHF" }
+        ]
+      },      
+      {
+        "value": "Audi", 
+        "modelle": [
+          { "modell": "A3", "preis": "ab 35,000 CHF" },
+          { "modell": "A4", "preis": "ab 45,000 CHF" },
+          { "modell": "A6", "preis": "ab 60,000 CHF" },
+          { "modell": "Q5", "preis": "ab 55,000 CHF" },
+          { "modell": "Q7", "preis": "ab 75,000 CHF" },
+          { "modell": "R8", "preis": "ab 200,000 CHF" }
+        ]
+      },
+      {
+        "value": "Bentley",
+        "modelle": [
+          { "modell": "Bentayga", "preis": "ab 230,000 CHF" },
+          { "modell": "Continental GT", "preis": "ab 250,000 CHF" },
+          { "modell": "Flying Spur", "preis": "ab 220,000 CHF" },
+          { "modell": "Mulsanne", "preis": "ab 330,000 CHF" }
+        ]
+      },      
+      {
+        "value": "BMW",
+        "modelle": [
+          { "modell": "3er", "preis": "ab 45,000 CHF" },
+          { "modell": "5er", "preis": "ab 65,000 CHF" },
+          { "modell": "7er", "preis": "ab 110,000 CHF" },
+          { "modell": "X5", "preis": "ab 85,000 CHF" },
+          { "modell": "i8", "preis": "ab 150,000 CHF" }
+        ]
+      },
+      {
+        "value": "Bugatti",
+        "modelle": [
+          { "modell": "Chiron", "preis": "ab 3,000,000 CHF" },
+          { "modell": "Veyron", "preis": "ab 1,700,000 CHF" },
+          { "modell": "Divo", "preis": "ab 5,000,000 CHF" },
+          { "modell": "Centodieci", "preis": "ab 9,000,000 CHF" }
+        ]
+      },
+      {
+        "value": "Cadillac",
+        "modelle": [
+          { "modell": "CT4", "preis": "ab 40,000 CHF" },
+          { "modell": "CT5", "preis": "ab 50,000 CHF" },
+          { "modell": "Escalade", "preis": "ab 100,000 CHF" },
+          { "modell": "XT5", "preis": "ab 55,000 CHF" }
+        ]
+      },
+      {
+        "value": "Chevrolet",
+        "modelle": [
+          { "modell": "Spark", "preis": "ab 15,000 CHF" },
+          { "modell": "Camaro", "preis": "ab 45,000 CHF" },
+          { "modell": "Tahoe", "preis": "ab 60,000 CHF" },
+          { "modell": "Corvette", "preis": "ab 70,000 CHF" }
+        ]
+      },
+      {
+        "value": "Chrysler",
+        "modelle": [
+          { "modell": "300", "preis": "ab 40,000 CHF" },
+          { "modell": "Pacifica", "preis": "ab 45,000 CHF" },
+          { "modell": "Voyager", "preis": "ab 35,000 CHF" }
+        ]
+      },
+      {
+        "value": "Citroën",
+        "modelle": [
+          { "modell": "C3", "preis": "ab 20,000 CHF" },
+          { "modell": "C4", "preis": "ab 25,000 CHF" },
+          { "modell": "C5 Aircross", "preis": "ab 35,000 CHF" },
+          { "modell": "Berlingo", "preis": "ab 30,000 CHF" }
+        ]
+      },
+      {
+        "value": "Dacia",
+        "modelle": [
+          { "modell": "Sandero", "preis": "ab 12,000 CHF" },
+          { "modell": "Duster", "preis": "ab 18,000 CHF" },
+          { "modell": "Logan", "preis": "ab 14,000 CHF" },
+          { "modell": "Spring", "preis": "ab 20,000 CHF" }
+        ]
+      },
+      {
+        "value": "Daewoo",
+        "modelle": [
+          { "modell": "Matiz", "preis": "ab 10,000 CHF" },
+          { "modell": "Lanos", "preis": "ab 12,000 CHF" },
+          { "modell": "Nubira", "preis": "ab 15,000 CHF" }
+        ]
+      },
+      {
+        "value": "Daihatsu",
+        "modelle": [
+          { "modell": "Charade", "preis": "ab 15,000 CHF" },
+          { "modell": "Terios", "preis": "ab 20,000 CHF" },
+          { "modell": "Sirion", "preis": "ab 12,000 CHF" }
+        ]
+      },
+      {
+        "value": "Dodge",
+        "modelle": [
+          { "modell": "Challenger", "preis": "ab 50,000 CHF" },
+          { "modell": "Charger", "preis": "ab 45,000 CHF" },
+          { "modell": "Durango", "preis": "ab 60,000 CHF" },
+          { "modell": "Ram 1500", "preis": "ab 70,000 CHF" }
+        ]
+      },
+      {
+        "value": "Ferrari",
+        "modelle": [
+          { "modell": "Portofino", "preis": "ab 230,000 CHF" },
+          { "modell": "F8 Tributo", "preis": "ab 250,000 CHF" },
+          { "modell": "812 Superfast", "preis": "ab 330,000 CHF" },
+          { "modell": "SF90 Stradale", "preis": "ab 450,000 CHF" }
+        ]
+      },
+      {
+        "value": "Fiat",
+        "modelle": [
+          { "modell": "500", "preis": "ab 15,000 CHF" },
+          { "modell": "Panda", "preis": "ab 12,000 CHF" },
+          { "modell": "Tipo", "preis": "ab 20,000 CHF" },
+          { "modell": "Ducato", "preis": "ab 30,000 CHF" }
+        ]
+      },
+      {
+        "value": "Ford",
+        "modelle": [
+          { "modell": "Fiesta", "preis": "ab 15,000 CHF" },
+          { "modell": "Focus", "preis": "ab 20,000 CHF" },
+          { "modell": "Mondeo", "preis": "ab 25,000 CHF" },
+          { "modell": "Mustang", "preis": "ab 40,000 CHF" }
+        ]
+      },
+      {
+        "value": "Genesis",
+        "modelle": [
+          { "modell": "G70", "preis": "ab 45,000 CHF" },
+          { "modell": "G80", "preis": "ab 55,000 CHF" },
+          { "modell": "G90", "preis": "ab 65,000 CHF" }
+        ]
+      },
+      {
+        "value": "GMC",
+        "modelle": [
+          { "modell": "Sierra", "preis": "ab 50,000 CHF" },
+          { "modell": "Yukon", "preis": "ab 60,000 CHF" },
+          { "modell": "Canyon", "preis": "ab 40,000 CHF" }
+        ]
+      },
+      {
+        "value": "Honda",
+        "modelle": [
+          { "modell": "Civic", "preis": "ab 25,000 CHF" },
+          { "modell": "Accord", "preis": "ab 30,000 CHF" },
+          { "modell": "CR-V", "preis": "ab 35,000 CHF" },
+          { "modell": "HR-V", "preis": "ab 20,000 CHF" } 
+        ]     
+      },
+        {
+            "value": "Hummer",
+            "modelle": [
+            { "modell": "H2", "preis": "ab 70,000 CHF" },
+            { "modell": "H3", "preis": "ab 50,000 CHF" },
+            { "modell": "H4", "preis": "ab 60,000 CHF" }
+            ]
+        },
+        {
+            "value": "Hyundai",
+            "modelle": [
+            { "modell": "i10", "preis": "ab 15,000 CHF" },
+            { "modell": "i20", "preis": "ab 20,000 CHF" },
+            { "modell": "i30", "preis": "ab 25,000 CHF" },
+            { "modell": "Kona", "preis": "ab 30,000 CHF" }
+            ]
+        },
+        {
+            "value": "Infiniti",
+            "modelle": [
+            { "modell": "Q50", "preis": "ab 40,000 CHF" },
+            { "modell": "Q60", "preis": "ab 45,000 CHF" },
+            { "modell": "QX50", "preis": "ab 50,000 CHF" },
+            { "modell": "QX80", "preis": "ab 60,000 CHF" }
+            ]
+        },
+        {
+            "value": "Jaguar",
+            "modelle": [
+            { "modell": "XE", "preis": "ab 40,000 CHF" },
+            { "modell": "XF", "preis": "ab 50,000 CHF" },
+            { "modell": "F-Pace", "preis": "ab 60,000 CHF" },
+            { "modell": "I-Pace", "preis": "ab 70,000 CHF" }
+            ]
+        },
+        {
+            "value": "Jeep",
+            "modelle": [
+            { "modell": "Renegade", "preis": "ab 25,000 CHF" },
+            { "modell": "Compass", "preis": "ab 30,000 CHF" },
+            { "modell": "Cherokee", "preis": "ab 35,000 CHF" },
+            { "modell": "Grand Cherokee", "preis": "ab 40,000 CHF" }
+            ]
+        },
+        {
+            "value": "Kia",
+            "modelle": [
+            { "modell": "Picanto", "preis": "ab 15,000 CHF" },
+            { "modell": "Rio", "preis": "ab 20,000 CHF" },
+            { "modell": "Ceed", "preis": "ab 25,000 CHF" },
+            { "modell": "Sportage", "preis": "ab 30,000 CHF" }
+            ]
+        },
+        {
+            "value": "Lamborghini",
+            "modelle": [
+            { "modell": "Huracan", "preis": "ab 200,000 CHF" },
+            { "modell": "Aventador", "preis": "ab 300,000 CHF" },
+            { "modell": "Urus", "preis": "ab 250,000 CHF" }
+            ]
+        },
+        {
+            "value": "Lancia",
+            "modelle": [
+            { "modell": "Ypsilon", "preis": "ab 20,000 CHF" },
+            { "modell": "Voyager", "preis": "ab 30,000 CHF" }
+            ]
+        },
+        {
+            "value": "Land Rover",
+            "modelle": [
+            { "modell": "Defender", "preis": "ab 50,000 CHF" },
+            { "modell": "Discovery", "preis": "ab 60,000 CHF" },
+            { "modell": "Range Rover", "preis": "ab 70,000 CHF" },
+            { "modell": "Range Rover Sport", "preis": "ab 80,000 CHF" }
+            ]
+        },
+        {
+            "value": "Lexus",
+            "modelle": [
+            { "modell": "IS", "preis": "ab 40,000 CHF" },
+            { "modell": "ES", "preis": "ab 50,000 CHF" },
+            { "modell": "RX", "preis": "ab 60,000 CHF" },
+            { "modell": "LC", "preis": "ab 70,000 CHF" }
+            ]
+        },
+        {
+            "value": "Lincoln",
+            "modelle": [
+            { "modell": "MKZ", "preis": "ab 40,000 CHF" },
+            { "modell": "Nautilus", "preis": "ab 50,000 CHF" },
+            { "modell": "Navigator", "preis": "ab 60,000 CHF" }
+            ]
+        },
+        {
+            "value": "Maserati",
+            "modelle": [
+            { "modell": "Ghibli", "preis": "ab 70,000 CHF" },
+            { "modell": "Quattroporte", "preis": "ab 80,000 CHF" },
+            { "modell": "Levante", "preis": "ab 90,000 CHF" }
+            ]
+        },
+        {
+            "value": "Mazda",
+            "modelle": [
+            { "modell": "2", "preis": "ab 15,000 CHF" },
+            { "modell": "3", "preis": "ab 20,000 CHF" },
+            { "modell": "6", "preis": "ab 25,000 CHF" },
+            { "modell": "CX-3", "preis": "ab 30,000 CHF" }
+            ]
+        },
+        {
+            "value": "McLaren",
+            "modelle": [
+            { "modell": "540C", "preis": "ab 200,000 CHF" },
+            { "modell": "570S", "preis": "ab 250,000 CHF" },
+            { "modell": "720S", "preis": "ab 300,000 CHF" },
+            { "modell": "GT", "preis": "ab 350,000 CHF" }
+            ]
+        },
+        {
+            "value": "Mercedes-Benz",
+            "modelle": [
+            { "modell": "A-Klasse", "preis": "ab 30,000 CHF" },
+            { "modell": "C-Klasse", "preis": "ab 40,000 CHF" },
+            { "modell": "E-Klasse", "preis": "ab 50,000 CHF" },
+            { "modell": "S-Klasse", "preis": "ab 70,000 CHF" }
+            ]
+        },
+        {
+            "value": "MG",
+            "modelle": [
+            { "modell": "ZS", "preis": "ab 20,000 CHF" },
+            { "modell": "HS", "preis": "ab 25,000 CHF" },
+            { "modell": "5", "preis": "ab 15,000 CHF" }
+            ]
+        },
+        {
+            "value": "Mini",
+            "modelle": [
+            { "modell": "Cooper", "preis": "ab 25,000 CHF" },
+            { "modell": "Countryman", "preis": "ab 30,000 CHF" },
+            { "modell": "Clubman", "preis": "ab 35,000 CHF" }
+            ]
+        },
+        {
+            "value": "Mitsubishi",
+            "modelle": [
+            { "modell": "Space Star", "preis": "ab 15,000 CHF" },
+            { "modell": "ASX", "preis": "ab 20,000 CHF" },
+            { "modell": "Eclipse Cross", "preis": "ab 25,000 CHF" },
+            { "modell": "Outlander", "preis": "ab 30,000 CHF" }
+            ]
+        },
+        {
+            "value": "Nissan",
+            "modelle": [
+            { "modell": "Micra", "preis": "ab 15,000 CHF" },
+            { "modell": "Qashqai", "preis": "ab 20,000 CHF" },
+            { "modell": "X-Trail", "preis": "ab 25,000 CHF" },
+            { "modell": "Leaf", "preis": "ab 30,000 CHF" }
+            ]
+        },
+        {
+            "value": "Opel",
+            "modelle": [
+            { "modell": "Corsa", "preis": "ab 15,000 CHF" },
+            { "modell": "Astra", "preis": "ab 20,000 CHF" },
+            { "modell": "Insignia", "preis": "ab 25,000 CHF" },
+            { "modell": "Grandland X", "preis": "ab 30,000 CHF" }
+            ]
+        },
+        {
+            "value": "Peugeot",
+            "modelle": [
+            { "modell": "208", "preis": "ab 15,000 CHF" },
+            { "modell": "308", "preis": "ab 20,000 CHF" },
+            { "modell": "508", "preis": "ab 25,000 CHF" },
+            { "modell": "3008", "preis": "ab 30,000 CHF" }
+            ]
+        },
+        {
+            "value": "Porsche",
+            "modelle": [
+            { "modell": "911", "preis": "ab 100,000 CHF" },
+            { "modell": "Cayenne", "preis": "ab 90,000 CHF" },
+            { "modell": "Panamera", "preis": "ab 110,000 CHF" },
+            { "modell": "Taycan", "preis": "ab 120,000 CHF" }
+            ]
+        },
+        {
+            "value": "Renault",
+            "modelle": [
+            { "modell": "Clio", "preis": "ab 15,000 CHF" },
+            { "modell": "Mégane", "preis": "ab 20,000 CHF" },
+            { "modell": "Captur", "preis": "ab 25,000 CHF" },
+            { "modell": "Kadjar", "preis": "ab 30,000 CHF" }
+            ]
+        },
+        {
+            "value": "Rolls-Royce",
+            "modelle": [
+            { "modell": "Ghost", "preis": "ab 300,000 CHF" },
+            { "modell": "Wraith", "preis": "ab 350,000 CHF" },
+            { "modell": "Dawn", "preis": "ab 400,000 CHF" },
+            { "modell": "Cullinan", "preis": "ab 450,000 CHF" }
+            ]
+        },
+        {
+            "value": "Saab",
+            "modelle": [
+            { "modell": "9-3", "preis": "ab 25,000 CHF" },
+            { "modell": "9-5", "preis": "ab 30,000 CHF" }
+            ]
+        },
+        {
+            "value": "Seat",
+            "modelle": [
+            { "modell": "Ibiza", "preis": "ab 15,000 CHF" },
+            { "modell": "Leon", "preis": "ab 20,000 CHF" },
+            { "modell": "Ateca", "preis": "ab 25,000 CHF" },
+            { "modell": "Tarraco", "preis": "ab 30,000 CHF" }
+            ]
+        },
+        {
+            "value": "Skoda",
+            "modelle": [
+            { "modell": "Fabia", "preis": "ab 15,000 CHF" },
+            { "modell": "Octavia", "preis": "ab 20,000 CHF" },
+            { "modell": "Superb", "preis": "ab 25,000 CHF" },
+            { "modell": "Kodiaq", "preis": "ab 30,000 CHF" }
+            ]
+        },
+        {
+            "value": "Smart",
+            "modelle": [
+            { "modell": "Fortwo", "preis": "ab 15,000 CHF" },
+            { "modell": "Forfour", "preis": "ab 20,000 CHF" }
+            ]
+        },
+        {
+            "value": "Subaru",
+            "modelle": [
+            { "modell": "Impreza", "preis": "ab 20,000 CHF" },
+            { "modell": "Legacy", "preis": "ab 25,000 CHF" },
+            { "modell": "Outback", "preis": "ab 30,000 CHF" },
+            { "modell": "XV", "preis": "ab 35,000 CHF" }
+            ]
+        },
+        {
+            "value": "Suzuki",
+            "modelle": [
+            { "modell": "Swift", "preis": "ab 15,000 CHF" },
+            { "modell": "Vitara", "preis": "ab 20,000 CHF" },
+            { "modell": "S-Cross", "preis": "ab 25,000 CHF" },
+            { "modell": "Jimny", "preis": "ab 30,000 CHF" }
+            ]
+        },
+        {
+            "value": "Tesla",
+            "modelle": [
+            { "modell": "Model 3", "preis": "ab 50,000 CHF" },
+            { "modell": "Model S", "preis": "ab 70,000 CHF" },
+            { "modell": "Model X", "preis": "ab 80,000 CHF" },
+            { "modell": "Model Y", "preis": "ab 60,000 CHF" }
+            ]
+        },
+        {
+            "value": "Toyota",
+            "modelle": [
+            { "modell": "Yaris", "preis": "ab 15,000 CHF" },
+            { "modell": "Corolla", "preis": "ab 20,000 CHF" },
+            { "modell": "Camry", "preis": "ab 25,000 CHF" },
+            { "modell": "RAV4", "preis": "ab 30,000 CHF" }
+            ]
+        },
+        {
+            "value": "Volkswagen",
+            "modelle": [
+            { "modell": "Polo", "preis": "ab 15,000 CHF" },
+            { "modell": "Golf", "preis": "ab 20,000 CHF" },
+            { "modell": "Passat", "preis": "ab 25,000 CHF" },
+            { "modell": "Tiguan", "preis": "ab 30,000 CHF" }
+            ]
+        },
+        {
+            "value": "Volvo",
+            "modelle": [
+            { "modell": "S60", "preis": "ab 30,000 CHF" },
+            { "modell": "V60", "preis": "ab 35,000 CHF" },
+            { "modell": "XC60", "preis": "ab 40,000 CHF" },
+            { "modell": "XC90", "preis": "ab 50,000 CHF" }
+            ]
+        }
+  ]

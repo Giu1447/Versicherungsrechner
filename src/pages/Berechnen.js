@@ -1,6 +1,7 @@
-import React, { useState, useContext } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { MyContext } from './Context';
+import { data } from '../data.json';
 
 function Berechnung() {
   const [schritt, setSchritt] = useState(1);
@@ -93,9 +94,9 @@ function Berechnung() {
             <div>
               <label className="block mb-2">Preis des Autos:</label>
               <select className="w-full p-2 border rounded-md" value={autoTyp} onChange={(e) => setAutoTyp(e.target.value)}>
-                <option value="günstig">Günstig</option>
-                <option value="mittel">Mittel</option>
-                <option value="teuer">Teuer</option>
+                <option value="günstig">0 - 20'000 CHF</option>
+                <option value="mittel">21'000 CHF - 60'000 CHF</option>
+                <option value="teuer">ab 61'000 CHF</option>
               </select>
             </div>
             <div>
