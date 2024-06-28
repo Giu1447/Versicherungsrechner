@@ -7,6 +7,11 @@
 1. Projektübersicht
 2. Funktionsweise des Versicherungsrechners
 3. Styling
+4. Umsetzung und Planung
+5. GitHub/Projekt
+6. Umsetzung des Ergebnisses
+7. Umsetzung der Projektdokumentation
+8. Persönliche Bewertung
 
 ---
 ### 1. Projektübersicht
@@ -97,7 +102,7 @@ const berechnePrämie = () => {
 ### Styling
 
 1. Zuerst habe ich das Design auf Figma erstellt. 
-	![[Wireframe.png]]
+	![alt text](https://github.com/Giu1447/Versicherungsrechner/blob/main/pictures/Wireframe.png)
 
 2. Dann habe ich das Design mithilfe von Tailwind in meinem React Projekt umgesetzt
 
@@ -140,6 +145,60 @@ const berechnePrämie = () => {
 
         </div>
 ```
+
+
+---
+### 4. Umsetzung und Planung
+
+#### Liste mit allen Ideen, die im Projekt anstehen:
+
+- Implementierung von mehr Versicherungsanbieteroptionen
+- Integration eines Vergleichsmoduls für verschiedene Versicherungsangebote
+- Verbesserung der Benutzeroberfläche für mobile Geräte
+
+#### Liste mit allen Ideen, die im deklarierten Zeitraum umgesetzt werden:
+
+- Berechnungsfunktionalität für Versicherungsprämien
+- Basis-Styling und Benutzeroberfläche
+- Integration von React-Routing für die Navigation zwischen Seiten
+
+#### Offen / In Bearbeitung / Erledigt:
+
+- Offen: Integration weiterer Versicherungsangebote
+- In Bearbeitung: Verbesserung der Benutzeroberfläche für mobile Geräte
+- Erledigt: Berechnungsfunktionalität und Basis-Styling implementiert
+
+---
+
+### 5. GitHub/Projekt
+
+- Das Projekt ist auf GitHub verfügbar und wird regelmäßig aktualisiert.
+- Code-Commits und Issues werden nachgeführt und dokumentiert.
+
+---
+
+### 6. Umsetzung des Ergebnisses
+
+- Das Ergebnis entspricht der Aufgabenstellung und dem initialen Entwurf.
+- Kleine Abweichungen wurden schriftlich begründet und dokumentiert.
+- Der Umfang der Umsetzung wurde innerhalb des festgelegten Zeitrahmens erreicht.
+- Die Anwendung funktioniert wie erwartet und ist unter "[https://versicherungsrechner-coral.vercel.app/](https://versicherungsrechner-coral.vercel.app/)" deployed.
+- Die Umsetzung erfolgte fachmännisch und entspricht den aktuellen Webstandards.
+
+---
+
+### 7. Umsetzung der Projektdokumentation
+
+- Die gesamte Projektdokumentation ist im Git-Repository verfügbar und sofort ersichtlich.
+- Das Readme enthält ein Projekt-Abstract, das den Zweck und die Funktionalität des Versicherungsrechners zusammenfasst.
+- Die Struktur der Projektdokumentation ist übersichtlich und ansprechend gestaltet.
+- Die Dokumentation bietet informative Details zur Funktionsweise, Umsetzung und Bewertung des Projekts.
+
+---
+
+### 8. Persönliche Bewertung
+
+Die Umsetzung des Giusurance Versicherungsrechners hat meine Erwartungen übertroffen. Durch die Nutzung moderner Technologien wie React und Tailwind konnte ich eine benutzerfreundliche Anwendung entwickeln, die sowohl funktional als auch ästhetisch ansprechend ist. Die laufende Weiterentwicklung des Projekts und die Integration neuer Funktionen bleiben meine nächsten Ziele.
 
 
 Giulian Mazzeo 2I
